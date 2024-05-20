@@ -71,6 +71,13 @@ Here is another example execution of the program:
 
 [Solution](./Assignment/sol.py)
 ___
+### Assignment - Quiz
+
+[Week 01 - Assignment Part-1 (Questions) Solutions](./quizAssg.md)
+
+Note [⚠] <br>
+Make sure to solve the quiz on your own. Refer the solutions only after solving the quiz.
+___
 ### Bonus Assignment
 
 A [quadratic equation](https://en.wikipedia.org/wiki/Quadratic_equation) is an equation that can be written as
@@ -81,7 +88,6 @@ In this equation *x* represents an unknown number, and *a*, *b*, and *c* are rep
 Possible solutions for a given quadratic equation can be calculated by the formula
 
 $$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
-
 
 The expression $$b^2 - 4ac$$
 
