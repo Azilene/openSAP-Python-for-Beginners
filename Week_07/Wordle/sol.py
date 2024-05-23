@@ -5,7 +5,7 @@ import random
 
 
 def wordList() -> list:
-    with open('Week_07/Final/5_letter_words.txt') as file:
+    with open('Week_07/Wordle/5_letter_words.txt') as file:
         data = file.read().split()
 
     return data
@@ -15,9 +15,6 @@ def getRandomWord(words: list) -> str:
 
 def isWordReal(guess: str, words: list) -> bool:
     return guess in words
-
-def isAlpha(guess: str) -> bool:
-    return any(ch.isalpha() for ch in guess)
 
 def checkGuess(guess: str, goal: str) -> str:
     
@@ -41,7 +38,7 @@ def Guess(data: list) -> str:
     while True:
         guess = input('Please enter a guess: ').lower()
 
-        if isWordReal(guess, data) and isAlpha(guess):
+        if isWordReal(guess, data):
             break
 
         print("That's not a real word!")
