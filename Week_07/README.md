@@ -1,5 +1,12 @@
 # Python for Beginners - Final Exam
 
+### Final Quiz
+
+[Final Exam - Part-1 (Questions) Solutions](./quizFinal.md)
+
+Note [⚠] <br>
+Make sure to solve the quiz on your own. Refer the solutions only after solving the quiz.
+___
 ### Wordle in Python
 
 Your task for the final assignment is to implement a [Wordle](https://en.wikipedia.org/wiki/Wordle) clone in Python. The basis for your version of Wordle is the file `5_letter_words.txt` [[1]](https://www-cs-faculty.stanford.edu/~knuth/sgb.html).
